@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background-color: rgba(255, 255, 255, 0.306); */
+  background: rgb(157, 157, 157);
+  border-radius: 60px;
+  width: auto;
+  margin: 10px;
+}
+
+.logo img {
+  height: 40px; /*размер логотипа */
+  left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: rgba(255, 255, 255, 0.501);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  transition: color 0.3s; 
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #ffffff; 
+
+}
+
+

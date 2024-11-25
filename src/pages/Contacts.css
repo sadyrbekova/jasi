@@ -1,0 +1,118 @@
+/* Основные стили для Contact Page */
+body{
+  font-family: 'Poiret One'
+}
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.contact-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-info, .social-links {
+  margin-bottom: 30px;
+}
+
+.info-group h4, .social-links h4 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-group p, .social-links p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.right-section {
+  flex: 1;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.social-links p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.social-links i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+.social-links a {
+  color: #666;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #017abb;
+}
+
