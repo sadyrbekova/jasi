@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Navbar from "./components/Navbar.js";
 import Footor from "./components/Footor.js";
 import About from "./pages/About.jsx";
@@ -10,16 +9,16 @@ import Projects from "./pages/Projects.jsx";
 
 const App = () => {
   return (
-   <>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Main />}/>
-      <Route path="/contact" element={<Contacts />}/>
-      <Route path="/projects" element={<Projects />}/>
-      <Route path="/about" element={<About />}/>
-    </Routes> 
-    <Footor />
-   </>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/contact" element={<Contacts />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footor />
+    </>
   );
 };
 
